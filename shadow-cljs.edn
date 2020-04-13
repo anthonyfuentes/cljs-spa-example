@@ -1,0 +1,16 @@
+{
+ :source-paths ["src/cljs"]
+
+ :dependencies
+ [[reagent "0.10.0"]]
+
+ :dev-http {3333 "assets/"}
+
+ :nrepl {:host "0.0.0.0" :port 8910}
+
+ :builds
+ {:app {:target             :browser
+        :output-dir         "assets/js"
+        :asset-path         "/js"
+        :modules            {:main {:init-fn stufft.ui.core/main!}}
+        :compiler-options   {:infer-externs :auto}}}}

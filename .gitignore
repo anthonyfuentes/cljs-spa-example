@@ -1,0 +1,10 @@
+node_modules/
+assets/js
+
+/target
+/checkouts
+/src/gen
+
+.shadow-cljs
+
+*.vim
