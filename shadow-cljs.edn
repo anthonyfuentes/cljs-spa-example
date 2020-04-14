@@ -2,7 +2,8 @@
  :source-paths ["src/cljs"]
 
  :dependencies
- [[reagent "0.10.0"]]
+ [[reagent "0.10.0"]
+  [metosin/reitit "0.4.2"]]
 
  :dev-http {3333 "assets/"}
 
