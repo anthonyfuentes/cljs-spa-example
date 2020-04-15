@@ -1,5 +1,5 @@
 {
- :source-paths ["src/cljs"]
+ :source-paths ["src/main"]
 
  :dependencies
  [[reagent "0.10.0"]
