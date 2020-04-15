@@ -6,5 +6,6 @@ assets/js
 /src/gen
 
 .shadow-cljs
+/out
 
 *.vim
